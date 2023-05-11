@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrifarm - Home</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <h3>AgriFarm Getting Ready...</h3>
+    </div>
+    <section id="navbar">
+        <img src="logo.png" alt="">
+        
+        <ul id="nav">
+            <li><a href="#marketprice">Market Price</a></li>
+            <li><a href="">Information</a></li>
+            <li><a href="">Consultant</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Purchase</a></li>
+            <div id="dropdown">
+                <li><a href="" id="dropmenu">More <i class="uil uil-angle-down"></i></a></li>
+                <div id="dropdown-content">
+                    <aside id="leftside">
+                        <div class="elm" id="elm-1">
+                            <div class="pic" id="elm-p1"></div>
+                            <div class="elm-c" id="elm-c1">
+                                <h3>Heading</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="elm" id="elm-2">
+                            <div class="pic" id="elm-p2"></div>
+                            <div class="elm-c" id="elm-c2">
+                                <h3>Heading 2</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="elm" id="elm-3">
+                            <div class="pic" id="elm-p3"></div>
+                            <div class="elm-c" id="elm-c3">
+                                <h3>Heading 3</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="elm" id="elm-4">
+                            <div class="pic" id="elm-p4"></div>
+                            <div class="elm-c" id="elm-c4">
+                                <h3>Heading 4</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="elm" id="elm-5">
+                            <div class="pic" id="elm-p5"></div>
+                            <div class="elm-c" id="elm-c5">
+                                <h3>Heading 5</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="elm" id="elm-6">
+                            <div class="pic" id="elm-p6"></div>
+                            <div class="elm-c" id="elm-c6">
+                                <h3>Heading 5</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </ul>
+        <button id="sellbtn" onclick="sellbtn()">Become a Seller</button>
+        <i id="menu" class="uil uil-bars"></i>
+    </section>
+    <section id="form">
+        <div id="close" ><i onclick="sellbtn()" class="uil uil-times"></i></div>
+        <form action="#marketprice">
+            <div id="titlebox">
+                <input type="text" id="title" autocomplete="off" placeholder="Enter Title">
+            </div>
+            <div id="textbox">
+                <textarea id="text" name="" id="" cols="30" rows="5" placeholder="Enter Short Description"></textarea>
+            </div>
+            <div id="phonebox">
+                <input type="tel" id="phone" maxlength="10" autocomplete="off" placeholder="+919307360279">
+            </div>    
+            <div id="upload">
+                <input type="file" name="file" id="file" placeholder="Upload File">
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="home">
+        <div id="note">Follow On <b>AgriFram</b> On All Social Media | Stay-Tuned</div>
+        <div id="banner"></div>
+        <section id="main-home">
+            <img src="img1.png" id="img-1" alt="">
+            <h1>Agricultural Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quos.</p>
+            <img src="img1.png" id="img-2" alt="">
+            <form action="#marketprice">
+                <div id="input">
+                    <i class="uil uil-search"></i>
+                    <input type="text" autocomplete="off" placeholder="Search AgriFarm" id="text-input">
+                    <button>Search</button>
+                </div>
+            </form>
+        </section>
+    </section>
+    <section id="marketprice">
+        <h1>Market Price</h1>
+        <!-- <div id="g-1"></div>
+        <div id="g-2"></div> -->
+        <div id="cardbox">
+            <!-- <div class="card" id="card-1">
+                <img src="/Agrifarm/cardimg.jpg" alt="">
+                <div id="card-c">
+                    <div id="info">
+                        <h3>Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsa commodi quia quas repellat quos!</p>
+                    </div>
+                    <div id="buying">
+                        <button id="buy">Buy</button>
+                        <div id="rate">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <footer style="clear:both;">
+            <div id="foot1">
+                <img src="logo.png" alt="">
+                <div id="location">
+                    <i class="uil uil-location-point"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, earum. Laborum quas magni facere maiores recusandae</p>
+                </div>
+                <div id="mail">
+                    <i class="uil uil-envelope-check"></i>
+                    <input type="email" name="email" id="" placeholder="anoncodes404@gmail.com" autocomplete="off">
+                    <button id="mailbtn" type="submit" name="email">Send</button>
+                </div>
+            </div>
+            <div id="foot2">
+                <h3>Services</h3>
+                <div id="footnav">
+                    <a>Marketprice</a>
+                    <a>Consultant</a>
+                    <a>Tools</a>
+                    <a>More</a>
+                </div> 
+            </div>
+            <div id="foot3">
+                <h3>Services</h3>
+                <div id="footnav">
+                    <a>Marketprice</a>
+                    <a>Consultant</a>
+                    <a>Tools</a>
+                    <a>More</a>
+                </div> 
+            </div>
+        </footer>
+        <!-- <div id="msg">
+            <video autoplay loop src="/Agrifarm/emoji.mp4"></video>
+            <h1>Oops This Website Made Only For Desktop</h1>
+            <p>This Website is Not Ready for Working On All Device</p>
+        </div> -->
+    <script src="index.js"></script>    
+</body>
+
+</html>

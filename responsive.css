@@ -1,0 +1,502 @@
+/* index HTML */
+@media (min-width:1245px) and (max-width:1145px) {
+    footer {
+        bottom: -1200px;
+    }
+}
+
+@media (max-width:1345px) {
+    section {
+        /* display: none; */
+    }
+
+    #msg {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    #navbar {
+        /* display: none; */
+    }
+
+    footer {
+        /* display: none; */
+    }
+    #banner{
+        /* display: none; */
+    }
+    #note{
+        /* display: none; */
+    }
+    #menu{
+        display: none;
+    }
+}
+
+@media (max-width:745px) {
+    #msg video {
+        width: 40%;
+    }
+
+    #msg h1 {
+        text-align: center;
+    }
+
+    #msg p {
+        text-align: center;
+    }
+}
+@media (min-width:1100px) and (max-width:1500px) {
+    /* body{
+        background: #000;
+    } */
+    #navbar img {
+        max-width: 10%;
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        left:20%;
+    }
+    #marketprice h1{
+        top:200px;
+    }
+}
+@media (min-width:1000px) and (max-width:1100px){
+    body{
+        /* background: #000; */
+    }
+    #navbar img {
+        max-width: 12%;
+    }
+    #navbar ul {
+
+        display: none;
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        align-items: ;
+        background: #676767;
+        width: 100%; */
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        left:20%;
+    }
+    #navbar #menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+
+    }
+    #navbar #sellbtn{
+        position: relative;
+        left: 220px;
+    }
+    #marketprice h1{
+        top:200px;
+    }
+}
+@media (min-width:900px) and (max-width:1000px){
+    
+    #navbar img {
+        max-width: 13%;
+    }
+    #navbar ul {
+
+        display: none;
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        align-items: ;
+        background: #676767;
+        width: 100%; */
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        left:20%;
+    }
+    #navbar #menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+
+    }
+    #navbar #sellbtn{
+        position: relative;
+        left: 180px;
+    }
+    #main-home h1{
+        font-size: 3.5rem;
+        top: 80px;
+    }
+    #main-home p{
+        top: 100px;
+        font-size: 17px;
+    }
+    #img-2{
+        top: -80px;
+    }
+    #input{
+        top:250px;
+    }
+    #marketprice h1{
+        top:200px;
+    }
+}
+@media (min-width:750px) and (max-width:900px){
+    body{
+        /* background: #000; */
+    }
+    #navbar{
+        padding: 16px;
+    }
+    #navbar img {
+        max-width: 15%;
+    }
+    #navbar ul {
+
+        display: none;
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        align-items: ;
+        background: #676767;
+        width: 100%; */
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        left:20%;
+    }
+    #navbar #menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+
+    }
+    #navbar #sellbtn{
+        position: relative;
+        left: 130px;
+    }
+    #main-home h1{
+        font-size: 3.5rem;
+        top: 80px;
+        z-index: 1;
+    }
+    #main-home p{
+        top: 100px;
+        font-size: 17px;
+        z-index: 1;
+    }
+    #main-home #img-1{
+        visibility: hidden;
+    }
+    #main-home #img-2{
+        visibility: hidden;
+    }
+    #input{
+        top:250px;
+    }
+    #marketprice h1{
+        top:300px;
+    }
+}
+@media  (min-width:450px) and (max-width:800px){
+    body{
+        /* background: #000; */
+    }
+    #navbar{
+        padding: 16px;
+    }
+    #navbar img {
+        max-width: 20%;
+    }
+    #navbar ul {
+
+        display: none;
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        align-items: ;
+        background: #676767;
+        width: 100%; */
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        left:10%;
+    }
+    #navbar #menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+
+    }
+    #navbar #sellbtn{
+        position: relative;
+        left: 110px;
+    }
+    #main-home h1{
+        font-size: 3.5rem;
+        top: 80px;
+        z-index: 1;
+    }
+    #main-home p{
+        top: 100px;
+        font-size: 17px;
+        z-index: 1;
+    }
+    #main-home #img-1{
+        visibility: hidden;
+    }
+    #main-home #img-2{
+        visibility: hidden;
+    }
+    #input{
+        top:250px;
+    }
+    #marketprice h1{
+        top:300px;
+    }
+    #home #note{
+        top:70px;
+        padding: 13px;
+    }
+    #home #banner{
+        top:120px;
+    }
+}
+@media (min-width:375px) and (max-width:450px) {
+    body{
+        /* background: #000; */
+    }
+    #navbar{
+        padding: 14px;
+    }
+    #navbar img {
+        max-width: 30%;
+    }
+    #navbar ul {
+
+        display: none;
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        align-items: ;
+        background: #676767;
+        width: 100%; */
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left:0%;
+    }
+    #navbar #menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+
+    }
+    #navbar #sellbtn{
+        position: relative;
+        left: 20px;
+        padding: 8px 15px;
+    }
+    #main-home h1{
+        font-size: 3rem;
+        top: 20px;
+        z-index: 1;
+    }
+    #main-home p{
+        top: 35px;
+        font-size: 15px;
+        z-index: 1;
+        width: 70%;
+        left: 15%;
+    }
+    #main-home #img-1{
+        visibility: hidden;
+    }
+    #main-home #img-2{
+        visibility: hidden;
+    }
+    #input{
+        top:250px;
+    }
+    #marketprice h1{
+        font-size: 3rem;
+        top:230px;
+    }
+    #cardbox{
+        top:820px;
+    }
+    #home #note{
+        top:73px;
+        padding: 13px;
+        font-size: 15px;
+    }
+    #home #banner{
+        top:120px;
+    }
+    #input{
+        width: 80%;
+        padding: 5px;
+    }
+    #input input{
+        width: 50%;
+    }
+    footer{
+        top:1100px;
+        flex-direction: column;
+    }
+    footer img{
+        width: 40%;
+    }
+    footer #mail{
+        width: 90%;
+    }
+    footer #foot2{
+        position: relative;
+        top:30px
+    }
+    footer #foot3{
+        position: relative;
+        top:30px
+    }
+}
+@media (min-width:320px) and (max-width:375px) {
+    body,html{
+        /* background: #000; */
+        /* width: 100%; */
+        /* overflow: hidden; */
+
+    }
+    #navbar{
+        padding: 14px;
+        width: 320px;
+    }
+    #navbar img {
+        max-width: 35%;
+    }
+    #navbar ul {
+
+        display: none;
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 150px;
+        align-items: ;
+        background: #676767;
+        width: 100%; */
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        left: -3%;
+        padding: 0px;
+        top: 10%;
+        border-radius: 0px;
+    }
+    #navbar #menu{
+        display: block;
+        font-size: 35px;
+        color: #fff;
+
+    }
+    #navbar #sellbtn{
+        position: relative;
+        left: 0px;
+        padding: 8px 15px;
+    }
+    #main-home h1{
+        font-size: 3rem;
+        top: 20px;
+        z-index: 1;
+    }
+    #main-home p{
+        top: 35px;
+        font-size: 15px;
+        z-index: 1;
+        width: 70%;
+        left: 15%;
+    }
+    #main-home #img-1{
+        visibility: hidden;
+    }
+    #main-home #img-2{
+        visibility: hidden;
+    }
+    #input{
+        top:250px;
+    }
+    #marketprice h1{
+        font-size: 3rem;
+        top:230px;
+    }
+    #cardbox{
+        top:820px;
+    }
+    #home{
+        /* overflow: hidden; */
+    }
+    #home #note{
+        top:73px;
+        padding: 13px 30px;
+        font-size: 15px;
+        width:320px;
+    }
+    #home #banner{
+        top:139px;
+    }
+    #input{
+        width: 80%;
+        padding: 5px;
+    }
+    #input input{
+        width: 50%;
+    }
+    footer{
+        top:1100px;
+        flex-direction: column;
+    }
+    footer img{
+        width: 40%;
+    }
+    footer #mail{
+        width: 90%;
+    }
+    footer #foot2{
+        position: relative;
+        top:30px
+    }
+    footer #foot3{
+        position: relative;
+        top:30px
+    }
+}
